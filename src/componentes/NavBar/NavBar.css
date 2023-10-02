@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1dcc1
+}
+li{
+    font-size: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    margin: 10px;
+    cursor: pointer;
+}
+h1{
+    margin-left: 6px;
+    font-size: 20px;
+}
