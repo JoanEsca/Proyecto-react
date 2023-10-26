@@ -4,14 +4,14 @@ import CartWidget from '../CartWidget/CartWidget';
 
 const Navbar = () => {
   return (
-    <header>
+    <header className='border'>
         <h1>JoanEsca</h1>
      <nav>
         <ul>
-            <li>Pantalon</li>
-            <li>Poleras</li>
-            <li>Polerones</li>
-            <li>Accesorios</li>
+            <li>Casco</li>
+            <li>Chaquetas</li>
+            <li>Lentes</li>
+            <li>Guantes</li>
         </ul>
      </nav>
      <CartWidget/>

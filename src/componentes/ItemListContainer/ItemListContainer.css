@@ -1,0 +1,11 @@
+h2{
+    text-align: center;
+    color: transparent;
+    background-image: linear-gradient(45deg, #5a5050,#5a5050  );
+    font-size: 2rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+h2:hover {
+        background-image: linear-gradient(45deg,#191919, #191919);
+    }
