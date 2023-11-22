@@ -1,5 +1,5 @@
-import './NavBar.css';
 import CartWidget from '../CartWidget/CartWidget';
+import './NavBar.css';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -7,20 +7,12 @@ const Navbar = () => {
     <header className='border'>
       <Link to="/">
         <h1>JoanEsca</h1>
-      </Link>
+      </Link >
 
      <nav>
         <ul>
             <li>
               <NavLink to="category/2">Casco</NavLink>    
-            </li>
-
-            <li>
-              <NavLink to="category/2">Chaquetas</NavLink>    
-            </li>
-
-            <li>
-              <NavLink to="category/3">Lentes</NavLink>    
             </li>
 
             <li>
@@ -35,3 +27,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
